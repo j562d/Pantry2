@@ -32,7 +32,7 @@ The technologies used for writing this application include:
 
 To start using the application, click Heroku link below, log in with your Google credentials, and enjoy the journey to the best recipes. 
 
-#### [Link to Heroku] (https://my-pantry-app.herokuapp.com/)
+#### [Link to Heroku] (https://my-pantry-application.herokuapp.com/)
 #### [Link to Trello] (https://trello.com/b/GWwtiUd0/project-3-pantry)
 #### [Link to Pitch Deck] (https://docs.google.com/presentation/d/1WvHoN5MNaRembgcoog5p0GtivVCOZSzvfPyeevzy08g/edit?usp=sharing)
 
