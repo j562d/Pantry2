@@ -9,7 +9,7 @@ const rootURL = 'https://spoonacular-recipe-food-nutrition-v1.p.mashape.com';
 //index, need to edit
 router.get('/', function(req, res, next) {
   var options = {
-    url: "https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/random?number=20",
+    url: "https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/random?number=4",
     headers: {
       'X-Mashape-Key': process.env.SPOONACULAR_TOKEN,
       'Accept': 'application/json'
@@ -24,7 +24,7 @@ router.get('/', function(req, res, next) {
 //complex search
 router.post('/search', function(req, res, next) {
  var options = {
-   url: rootURL + '/recipes/searchComplex?query=' + req.body.main + '&includeIngredients=' + req.body.ingredient1 + '%2C+' + req.body.ingredient2 + '%2C+' + req.body.ingredient3 + '&excludeIngredients=' + req.body.allergy1 + '%2C+' + req.body.allergy2 + '%2C+' + req.body.allergy3 + '&instructionsRequired=true&&fillIngredients=true&limitLicense=false&number=20&offset=0&ranking=1',
+   url: rootURL + '/recipes/searchComplex?query=' + req.body.main + '&includeIngredients=' + req.body.ingredient1 + '%2C+' + req.body.ingredient2 + '%2C+' + req.body.ingredient3 + '&excludeIngredients=' + req.body.allergy1 + '%2C+' + req.body.allergy2 + '%2C+' + req.body.allergy3 + '&instructionsRequired=true&&fillIngredients=true&limitLicense=false&number=4&offset=0&ranking=1',
    headers: {
      'X-Mashape-Key': process.env.SPOONACULAR_TOKEN,
      'Accept': 'application/json'
@@ -52,7 +52,7 @@ router.post('/searchp', function(req, res, next) {
   var string = uRestrict.toString();
   var convertR = string.replace(/,/g , "%2C+");
   var options = {
-   url: rootURL + '/recipes/searchComplex?excludeIngredients=' + convertR + '&includeIngredients=' + convertP + '&instructionsRequired=true&&fillIngredients=true&limitLicense=false&number=20&offset=0&ranking=1',
+   url: rootURL + '/recipes/searchComplex?excludeIngredients=' + convertR + '&includeIngredients=' + convertP + '&instructionsRequired=true&&fillIngredients=true&limitLicense=false&number=4&offset=0&ranking=1',
    headers: {
      'X-Mashape-Key': process.env.SPOONACULAR_TOKEN,
      'Accept': 'application/json'
