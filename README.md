@@ -7,7 +7,7 @@ PANTRY is a comprehansive tool for searching recipes that include ingredients th
 
 The application allows users without an account to search by ingredients (limited to 3 ingredients per search) or by recipe.
 
-Logged in users have an additional capability to search with what's in their pantry while applying negative filters and excluding recipes that have ingredients they are allergic to (or just prefer to avoid). Additionally, logged in users are allowed to add recipes they liked to the favorite list and access them later. They can provide rating and comments to any recipe to share their experience with others.
+Logged in users have an additional capability to search with what's in their pantry while applying negative filters and excluding recipes that have ingredients they are allergic to (or just prefer to avoid). Additionally, logged in users are allowed to add recipes they liked to the favorite list and access them later. They can provide rating and comments to any recipe to share their experience with others..
 
 
 
