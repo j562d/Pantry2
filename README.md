@@ -10,6 +10,7 @@ The application allows users without an account to search by ingredients (limite
 Logged in users have an additional capability to search with what's in their pantry while applying negative filters and excluding recipes that have ingredients they are allergic to (or just prefer to avoid). Additionally, logged in users are allowed to add recipes they liked to the favorite list and access them later. They can provide rating and comments to any recipe to share their experience with others.
 
 
+
 ## Technologies Used
 
 The technologies used for writing this application include: 
